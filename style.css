@@ -1,0 +1,172 @@
+/* import fonts  */
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Jost&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'DM Serif Display', serif;
+}
+
+body{
+  background-color: yellow;
+  width: 100%;
+  height: 100vh;
+  background: var(--light);
+}
+
+:root{
+  --primary-bk: #292F36;
+  --primary-yl: #CDA274;
+  --primary-wh: #F4F0EC;
+  --para-text: #4D5053;
+  --dark: #000;
+  --light: #fff;
+  --jost-font: 'Jost', sans-serif;
+
+}
+
+/* clases  */
+.contain{
+  padding-left: 70px;
+  padding-right: 70px;
+}
+/* --------------------------
+        Buttons 
+-----------------------------*/
+.btn{
+  padding: 18px 40px;
+  font-size: 18px;
+  font-family: var(--jost-font)!important;
+  color: var(--light);
+  text-decoration: none;
+  border-radius: 18px;
+}
+.btn span{
+  font-family: var(--jost-font);
+  letter-spacing: 1px;
+}
+.b-btn i{
+  color: var(--primary-yl);
+  font-size: 18px;
+  transform: translate(10px);
+}
+
+.b-btn{
+  background-color: var(--primary-bk);
+}
+
+
+/* --------------------------
+        header section  
+-----------------------------*/
+header{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+nav{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  /* border: 1px solid black; */
+}
+
+nav .nav-logo{
+  font-size: 40px;
+  color: var(--primary-bk);
+}
+
+nav .nav-link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0px 25px;
+}
+nav .nav-link a{
+  text-decoration: none;
+  font-size: 20px;
+  color: var(--primary-bk);
+}
+
+/* --------------------------
+        main section  
+-----------------------------*/
+
+.main-head{
+  font-size: 65px;
+  color: var(--primary-bk);
+}
+.main-para{
+  color: var(--para-text);
+  font-size: 22px;
+  font-family: var(--jost-font);
+}
+
+main{
+  background: url(./media/main-pic.png);
+  clip-path: inset(0 0 0 0 round 0% 0% 0% 18%);
+  flex: 1;
+  width: 100%;
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+main .btn{
+  margin-top: 10px;
+}
+
+.wp-sec{
+  padding-top: 60px;
+  padding-bottom:60px;
+}
+
+.wp-sec{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.wp-sec-card{
+  width: 300px;
+  text-align: center;
+}
+
+.wp-sec-card p,
+.wp-sec-card div{
+  font-family: var(--jost-font);
+  font-size: 22px;
+  color: var(--para-text);
+  margin: 10px 0px 15px 0px;
+  font-weight: lighter;
+}
+.wp-sec-card div{
+  cursor: pointer;
+  /* transition: all 1s linear; */
+}
+.wp-sec-card div:hover{
+  text-decoration: underline black;
+}
+.wp-sec-card div span{
+  font-family: var(--jost-font);
+  font-weight: bold;
+  font-size: 18px;
+}
+.wp-sec-card div i{
+  color: var(--primary-yl);
+  font-size: 18px;
+}
+.wp-sec-card h3{
+  font-size: 25px;
+  font-weight: 400;
+}
