@@ -19,6 +19,7 @@ body{
   --primary-bk: #292F36;
   --primary-yl: #CDA274;
   --primary-wh: #F4F0EC;
+  --fade-yl: #F4F0EC;
   --para-text: #4D5053;
   --dark: #000;
   --light: #fff;
@@ -94,6 +95,7 @@ nav .nav-link a{
   text-decoration: none;
   font-size: 20px;
   color: var(--primary-bk);
+  font-family: var(--jost-font);
 }
 
 /* --------------------------
@@ -126,6 +128,9 @@ main .btn{
   margin-top: 10px;
 }
 
+/* --------------------------
+        work process wp-sec
+-----------------------------*/
 .wp-sec{
   padding-top: 60px;
   padding-bottom:60px;
@@ -170,3 +175,77 @@ main .btn{
   font-size: 25px;
   font-weight: 400;
 }
+
+
+/* --------------------------
+        call to action ca-sec
+-----------------------------*/
+.ca-sec{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ca-txt{
+  max-width: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.ca-txt h1{
+  font-size: 50px;
+  color: var(--primary-bk);
+  letter-spacing: 1px;
+}
+.ca-para{
+  color: var(--para-text);
+  font-family: var(--jost-font)!important;
+  font-size: 22px;
+  letter-spacing: 1px;
+  margin-top: 10px
+}
+.ca-info{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0px 10px;
+  padding: 10px 0px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  /* border: 1px solid black; */
+}
+.ca-info i{
+  padding: 25px;
+  background-color:var(--fade-yl);
+  border-radius: 50%;
+  font-size: 25px;
+  color: var(--primary-yl);
+}
+.ca-info span div:nth-child(1){
+  font-size: 23px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: var(--primary-bk);
+  font-family: var(--jost-font);
+}
+.ca-info span div:nth-child(2){
+  font-size: 21px;
+  /* font-weight: bold; */
+  /* letter-spacing: 1px; */
+  color: var(--primary-bk);
+  font-family: var(--jost-font);
+}
+.ca-img{
+  background: url(./media/photo-1.png);
+  background-position: center center;
+  background-size: cover;
+  width: 600px;
+  height: 600px;
+  clip-path: inset(0 0 0 0 round 0% 0% 0% 18%);
+}
+
+/* --------------------------
+        call to action ca-sec
+-----------------------------*/
