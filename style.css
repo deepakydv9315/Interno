@@ -249,3 +249,57 @@ main .btn{
 /* --------------------------
         call to action ca-sec
 -----------------------------*/
+.tst-sec-wrapper{
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: var(--fade-yl);
+  border-radius: 50px;
+}
+.tst-head{
+  font-size: 50px;
+  text-align: center;
+  color: #292F36;
+  margin-bottom: 30px;
+}
+
+.tst-card-wrapper{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+.tst-card{
+  background-color: #fff;
+  padding: 30px 20px;
+  max-width: 300px;
+  border-radius: 20px;
+}
+
+.tst-card-head{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0px 20px;
+  margin-bottom: 20px;
+}
+.tst-card-head img{
+  width: 60px;
+  border-radius: 50%;
+}
+.tst-card-head span div:nth-child(1){
+  font-size: 22px;
+  letter-spacing: 1px;
+  color: #292F36;
+}
+.tst-card-head span div:nth-child(2){
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: var(--para-text);
+  font-family: var(--jost-font);
+}
+.tst-card-txt{
+  font-family: var(--jost-font);
+  font-size: 20px;
+  color: var(--para-text);
+}
