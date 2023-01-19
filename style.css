@@ -342,3 +342,84 @@ main .btn{
   letter-spacing: 1px;
   margin-bottom: 20px;
 }
+
+.cnt-sec .btn{
+  box-shadow: 0px 5px 30px -10px black;
+}
+
+/* --------------------------
+        our product section
+-----------------------------*/
+
+.pr-sec{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.pr-wrapper{
+  padding: 30px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px 20px;
+}
+.pr-sec h1{
+  text-align: center;
+  font-size: 50px;
+  letter-spacing: 2px;
+  color: var(--primary-bk);
+}
+.pr-sec p{
+  text-align: center;
+  font-size: 20px;
+  font-family: var(--jost-font);
+  color: var(--primary-bk);
+}
+.pr-card{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  max-width: 450px;
+  padding: 10px;
+}
+.pr-card:nth-child(2n) img{
+  width: 400px;
+  height: 350px;
+  clip-path: inset(0 0 0 0 round 0% 20% 0% 0%);
+}
+.pr-card:nth-child(2n+1) img{
+  width: 400px;
+  height: 350px;
+  clip-path: inset(0 0 0 0 round 0% 0% 0% 20%);
+}
+
+.pr-card-ft{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+}
+.l-pr-card-ft span:nth-child(1){
+  font-size: 25px;
+  color: var(--primary-bk);
+  letter-spacing: 1px;
+}
+.l-pr-card-ft span:nth-child(3){
+  font-size: 20px;
+  color: var(--para-text);
+  font-family: var(--jost-font);
+}
+.r-pr-card-ft{
+  padding: 20px;
+  background-color: var(--fade-yl);
+  columns: var(--dark);
+  border-radius: 50%;
+  text-align: center;
+  /* aspect-ratio: 1/1; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+} 
